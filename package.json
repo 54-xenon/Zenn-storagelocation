@@ -1,0 +1,23 @@
+{
+  "name": "zenn-storagelocation",
+  "version": "1.0.0",
+  "description": "Zenn執筆専用のリポジトリ\r 今のところは非公開\r 書いたコード基本的にここにコピーする。\r 一時的なコードはEvernoteにコピーする。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/54-xenon/Zenn-storagelocation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/54-xenon/Zenn-storagelocation/issues"
+  },
+  "homepage": "https://github.com/54-xenon/Zenn-storagelocation#readme",
+  "dependencies": {
+    "zenn-cli": "^0.1.132"
+  }
+}
