@@ -19,5 +19,6 @@
   "homepage": "https://github.com/54-xenon/Zenn-storagelocation#readme",
   "dependencies": {
     "zenn-cli": "^0.1.132"
-  }
+  },
+  "devDependencies": {}
 }
