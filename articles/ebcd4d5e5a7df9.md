@@ -13,14 +13,29 @@ published: false
 ## HTMl
 擬似要素を使うためにあHTMLの一部に何かを加える必要はありません。いつも通り、HTNLを書いていくだけです。(HTMLに関しての説明は今回省きます。)
 ```html
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
-    <div>
-        <h2>タイトル</h2>
-    </div>
-</body>
-</html>
+
 ```
+
+## CSS
+早速擬似要素を使っていきます。
+### 擬似要素を使う時のポイント
+擬似要素は表示されない時は、positionやcontentプロパティを書き忘れていないか確認してみてください.
+```css
+body {
+    width:100%;
+    height:100vh;
+    backgroud-color: white;
+}
+
+
+body::before {
+    content = "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backgroud: liner-graduent(#fff, #fff);
+    /* クリップスタジオパスで図形を作成 */
+}
+
+```
+また、今回は円形の図形を作る時のクリップパスメーカーを使います。
