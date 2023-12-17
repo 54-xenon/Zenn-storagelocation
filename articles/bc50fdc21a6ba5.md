@@ -3,7 +3,7 @@ title: "Xcodeをアップデート後iOSシュミレータで実行できなく�
 emoji: "📲"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Flutter", "Xcode","Dart"]
-published: false
+published: true
 ---
 # はじめに
 Flutter初心者なApple信者@RAM不足です。名前長いのでそろそろ変えたいです()
